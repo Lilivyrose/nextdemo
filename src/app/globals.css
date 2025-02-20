@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #045af9;
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #5a30d9;
     --foreground: #ededed;
   }
 }
@@ -19,3 +19,55 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.spot {
+  margin-top: 50px;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  justify-content: space-between;
+  align-items: center;  
+  text-align: center;
+}
+.box {
+  width: 1250px;
+  height: 200px;
+  background: rgb(86, 112, 229);
+  box-shadow: 0px 10px 20px rgba(61, 89, 193, 0.2); 
+  padding: 60px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f6f4f4;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 5px;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 25px rgba(13, 15, 117, 0.3);
+}
+.b {
+  background-color: #ededed;
+  color: #5a30d9;
+  align-items: center;
+  border-radius: 5px;
+  width: 75px;
+  height: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0px 10px 20px rgba(159, 159, 160, 0.2); 
+
+}
+.b:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 25px rgba(13, 15, 117, 0.3);
+}
+.but {
+  width: 100%;
+  align-items: center;
+  margin-left: 45%;
+  margin-top: 100px;
+
+}
+

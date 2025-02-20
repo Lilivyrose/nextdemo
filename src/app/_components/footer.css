@@ -1,0 +1,9 @@
+.footer{
+    color: blue;
+    background-color: aliceblue;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+    margin-top: 50PX;
+    padding: 10px
+}
