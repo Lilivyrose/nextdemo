@@ -1,5 +1,4 @@
-"use client";
-import { useState } from 'react'; 4.6k (gripped: 1.9k) 
+
 import './globals.css'; 
 export default function Home() {
   
